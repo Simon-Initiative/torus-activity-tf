@@ -1,0 +1,14 @@
+{
+  "id": "example_tf",
+  "allowClientEvaluation": true,
+  "friendlyName": "True/False",
+  "description": "An example Torus activity",
+  "delivery": {
+    "element": "example-tf-delivery",
+    "entry": "example_tf_delivery.js"
+  },
+  "authoring": {
+    "element": "example-tf-authoring",
+    "entry": "example_tf_authoring.js"
+  }
+}
