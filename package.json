@@ -1,7 +1,7 @@
 {
-  "name": "torus-activity-sdk",
+  "name": "torus-activity-tf",
   "version": "1.0.0",
-  "description": "Torus client-side activity SDK",
+  "description": "Example True/False activity",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
