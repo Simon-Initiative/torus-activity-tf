@@ -5,7 +5,7 @@ require('dotenv').config();
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0
 
-function register(localFile, torusHost, token) {
+function register(torusHost, token) {
     
   // Read image from disk as a Buffer
   const bundle = fs.readFile('./bundle.zip')
@@ -24,4 +24,4 @@ function register(localFile, torusHost, token) {
   });
 }
 
-register('./bundle.zip', 'https://localhost', process.env.TORUS_API_KEY);
+register(process.argv[2], process.env.TORUS_API_KEY);
