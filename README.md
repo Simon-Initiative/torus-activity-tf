@@ -1,5 +1,7 @@
 # torus-activity-tf
 
+An example Torus activity, built using the Torus Activity SDK.
+
 ## Getting Started
 
 First, clone and build this repository:
